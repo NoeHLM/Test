@@ -1,0 +1,143 @@
+body {
+    color: white;
+    background-color: black;
+}
+
+
+/* grande boite qui contient le tableau */
+.grande_boite_stats {
+    height: 600px;
+    display: flex;
+}
+
+/* premiere boite sur la gauche qui contient limage  */
+.grande_boite_image1 {
+
+    width: 50%;
+}
+
+/* tableau taille */
+table {
+    width: 50%;
+    color: white;
+}
+
+/* taille de police de texte du tableau */
+.intituler_boites{
+    font-weight: bold;
+    font-size: 40px;
+}
+.chiffre_boites{
+    font-size: 20px;
+}
+
+/* image de la premiere case tableau */
+.petite_boite1 img {
+    width: 100%;
+    height: 600px;
+}
+
+/* case 1 coter droite contient parti jouer*/
+.boite1 {
+    background-color: grey;
+    width: 40%;
+    height: 150px;
+    text-align: center;
+}
+
+/* case 2 coter droite contient joueurs conecter */
+.boite2 {
+    background-color: rgba(99, 96, 96, 0.411);
+    width: 40%;
+    height: 150px;
+    text-align: center;
+}
+
+/* case 3 coter droite contient record */
+.boite3 {
+    background-color: rgba(99, 96, 96, 0.411);
+    width: 40%;
+    height: 150px;
+    text-align: center;
+}
+
+/* case 4 coter droit contient joueur inscrit */
+.boite4 {
+    background-color: grey;
+    width: 40%;
+    height: 150px;
+    text-align: center;
+}
+
+
+/* titre 2 et texxte avant photo personnage du bas */
+h2 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+}
+
+
+.texte_endessous_image {
+    text-align: center;
+}
+
+
+/* GRANDE DIV DE TOUTE LES PHOTO PERSO ET TEXTE  */
+.grande_case {
+    display: flex;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+    justify-content: space-between;
+
+    width: 90%;
+    height: 200px;
+    text-align: center;
+}
+
+.taille_image {
+    width: 240px;
+    height: 190px;
+
+    /* object-fit: cover; */
+    /* background-color: grey; */
+    /* padding-bottom: 10px; */
+
+}
+.taille_image img {
+    text-align: center;
+    /* object-fit: cover; */
+    /* background-color: grey; */
+    /* padding-bottom: 10px; */
+
+}
+.photo1 img {
+    margin-top: 20%;
+    width: 75%;
+    text-align: center;
+    /* height: 400px; */
+    margin-left: 12.5%;
+
+}
+
+.grande_case {
+    margin-top: 7.5%;
+    margin-left: 5%;
+    justify-content: center;
+    gap: 5%;
+
+
+}
+
+.photo1 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 230px;
+    /* object-fit: cover; */
+    background-color: rgba(99, 96, 96, 0.411);
+    padding-bottom: 5%; 
+    justify-content: center;
+    font-weight: bold;
+    
+}
